@@ -1,0 +1,170 @@
+.ancla{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+.flex{
+    display: flex;
+}
+.header{
+    background: rgb(236, 234, 234);
+}
+span{
+    flex: 1;
+}
+
+
+.ancla:hover{
+    color: gray
+}
+.icon:hover{
+    color: gray
+}
+.icon {
+    margin: 8px;
+    font-size: 20px;
+}
+.wonder{
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 100px;
+    color: #757474
+}
+p{
+    color: rgb(141, 141, 141);
+}
+.div{
+    display: inline-flex;
+    flex-direction: column;
+}
+.box{
+    padding: 10px 30px;
+    margin: 5px;
+    background: #000000;
+    color: #ffffff;
+    text-decoration: none;
+}
+section{
+    margin-left: 50px;
+}
+.box:hover{
+    border: #000000 1px solid;
+    background: none;
+    color:#000000
+}
+.listen{
+    margin: 50px;
+    border: 800px;
+    padding: 90px;
+ }
+ .wonder{
+     margin: 2px;
+}
+ .latest{
+     margin-top: 90px;
+     
+ }
+ .store{
+     display: flex;
+     justify-content: center;
+     align-content: center;
+ }
+ .cardeck{
+     width: 400px;
+     height: 400px;
+     margin-top: 100px;
+     margin-left: 20px;
+ }
+ .d2c1{
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 25px;
+ }
+ .zine{
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 20px;
+ }
+ .store1{
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     flex-direction: column;
+     flex: 1 1 auto;
+     z-index: 1;
+     margin-top: 90px;
+ }
+ .storecds{
+     text-align: center;
+     color: #000000;
+     font-size: 20px;
+ }
+ .storee{
+    font-family: 'Playfair Display', serif;
+    font-size: 200px;
+    color: #b8b3b3;
+    align-content: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: absolute;
+ }
+
+body{
+    background-color: rgb(236, 234, 234); color:rgb(153, 153, 153) font-size: 200px;
+}
+.aa{
+    background-image: url(../imagenes/wonder-desktop.jpg)
+}
+.ancla{
+    font-family: 'Bree Serif', serif;
+}
+.musicc{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: 1;
+    margin-top: 0px
+    flex: 1 1 auto;
+}
+.music{
+    font-family: 'Playfair Display', serif;
+    font-size: 200px;
+    color: #b8b3b3;
+    align-content: right;
+    margin-left: 600px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.music1{
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     flex-direction: column;
+     flex: 1 1 auto;
+     z-index: 1;
+     margin-top: 90px;
+}
+.blood{
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+.wondercover{
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+.smcoverr{
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+.musiclol{
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+}
