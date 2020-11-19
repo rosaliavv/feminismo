@@ -61,7 +61,18 @@ section{
 }
  .latest{
      margin-top: 90px;
-     
+     animation-duration: 5s;
+     animation-name: animacion;
+ }
+ @keyframes animacion{
+     from{
+         margin-right: 100%;
+         width: 300%;
+     }
+     to{
+         margin-left: 0%;
+         width: 100%;
+     }
  }
  .store{
      display: flex;
@@ -135,6 +146,7 @@ body{
     margin-left: 600px;
     margin-top: 0px;
     margin-bottom: 0px;
+    position: absolute
 }
 .music1{
      display: flex;
@@ -167,4 +179,37 @@ body{
     text-align: center;
     color: #000000;
     font-size: 20px;
+}
+.videos{
+    font-family: 'Playfair Display', serif;
+    font-size: 200px;
+    color: #b8b3b3;
+    align-content: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: absolute;
+}
+.videoss{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 180px;
+    z-index: 1;
+}
+.wondervideo{
+    position: absolute;
+    z-index: 10;
+}
+body{
+    margin: 0px;
+}
+footer:hover{
+    color: #9e6e6e
+}
+
+footer{
+    padding: 200px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
 }
