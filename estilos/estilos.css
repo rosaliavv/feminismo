@@ -216,11 +216,15 @@ footer{
     background-color: black;
     color: #b8b3b3;
     height: 300px;
-    margin-top: 70px;
+}
+.footertext{
+    margin-top: 60px;
+    text-align: center;
+    text-align-last: unset;
 }
 @keyframes animacion{
-    0%{color: blueviolet; bottom: 0;}
-    33%{color: red; bottom: 10px;}
-    66%{color: gray; bottom: 5px;}
-    100%{color: blueviolet; bottom: 0;}
+    0%{color: rgb(233, 162, 197); bottom: 0;}
+    33%{color: rgb(53, 50, 90); bottom: 10px;}
+    66%{color: rgb(141, 140, 140); bottom: 5px;}
+    100%{color: rgb(233, 162, 197); bottom: 0;}
 }
