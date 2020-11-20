@@ -64,16 +64,6 @@ section{
      animation-duration: 5s;
      animation-name: animacion;
  }
- @keyframes animacion{
-     from{
-         margin-right: 100%;
-         width: 300%;
-     }
-     to{
-         margin-left: 0%;
-         width: 100%;
-     }
- }
  .store{
      display: flex;
      justify-content: center;
@@ -197,7 +187,6 @@ body{
     z-index: 1;
 }
 .wondervideo{
-    position: absolute;
     z-index: 10;
 }
 body{
@@ -206,10 +195,32 @@ body{
 footer:hover{
     color: #9e6e6e
 }
+.thanku{ 
+    font-family: 'Playfair Display', serif;
+    font-size: 200px;
+    color: #b8b3b3;
+    align-content: right;
+    margin-left: 600px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    animation-name: animacion;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
 
 footer{
-    padding: 200px;
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 30px;
+    background-color: black;
+    color: #b8b3b3;
+    height: 300px;
+    margin-top: 70px;
+}
+@keyframes animacion{
+    0%{color: blueviolet; bottom: 0;}
+    33%{color: red; bottom: 10px;}
+    66%{color: gray; bottom: 5px;}
+    100%{color: blueviolet; bottom: 0;}
 }
